@@ -1,0 +1,36 @@
+{
+  "name": "motovitacora_api",
+  "version": "1.0.0",
+  "description": "Moto Bitacora API",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "start":"nodemon ./build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igriet/MotoBitacora_API.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "express",
+    "mongodb",
+    "restful"
+  ],
+  "author": "16R137",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igriet/MotoBitacora_API/issues"
+  },
+  "homepage": "https://github.com/igriet/MotoBitacora_API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "mongoose": "^5.4.22",
+    "morgan": "^1.9.1"
+  }
+}
