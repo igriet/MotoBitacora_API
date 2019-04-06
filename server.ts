@@ -8,7 +8,7 @@ import * as cors from 'cors';
 
 import router from './router/v1';
 import config from './config/main';
-
+ 
 const app = express();
 
 mongoose.connect(config.db);
