@@ -7,7 +7,7 @@ const BitacoraSchema= new Schema({
         type:Date,
         default:Date.now
     },
-    kilometraje:{ 
+    kilometraje:{
         type:String,
         default:"",
         required:true

@@ -7,7 +7,7 @@ import {
     remove    
 } from '../controllers/BitacoraController';
 
-export default (app)=>{  
+export default (app)=>{
     const apiRoutes = express.Router();
     const bitacoraRoutes = express.Router();
 

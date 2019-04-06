@@ -8,7 +8,7 @@ export function getAll(req, res, next){
         res.status(200).json({registros});
     });
 }
- 
+
 export function getById(req, res,next){
     const id = req.params.id;
     Bitacora.findById(id,(err,registro)=>{
