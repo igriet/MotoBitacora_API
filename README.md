@@ -1,7 +1,7 @@
 # MotoBitacora_API
 Moto Bitacora API
 
-Es una API RESTFul que utilizar tecnologias como
+Es una API RESTFul que utiliza tecnologias como
 
 <ul>
   <li>Nodejs</li>
