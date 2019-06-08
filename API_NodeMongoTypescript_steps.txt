@@ -1,0 +1,26 @@
+create folder for the system
+
+npm init
+
+npm install packages
+express, body-parser, 
+cookie-parser, morgan, 
+helmet, mongoose, cors
+
+npm i with @types/ of all the packages
+
+create structure of the project(folders)
+
+create tsconfig.json
+
+create main.ts inside config folder
+
+create schema in models
+
+create controllers inside controllers folder
+
+create routes for each controller
+
+create server.ts
+
+to test it , you need to run mongod and then npm run build in order to transform .ts files into .js files, then npm start in order to start the server
