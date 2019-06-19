@@ -5,7 +5,7 @@ var BitacoraController_1 = require("../controllers/BitacoraController");
 exports.default = (function (app) {
     var apiRoutes = express.Router();
     var bitacoraRoutes = express.Router();
-    apiRoutes.use("/bitacoras", bitacoraRoutes);
+    apiRoutes.use("/bitacora", bitacoraRoutes);
     bitacoraRoutes.get('/', BitacoraController_1.getAll);
     bitacoraRoutes.get('/:id', BitacoraController_1.getById);
     bitacoraRoutes.post('/', BitacoraController_1.create);

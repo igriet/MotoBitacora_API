@@ -11,7 +11,7 @@ export default (app)=>{
     const apiRoutes = express.Router();
     const bitacoraRoutes = express.Router();
 
-    apiRoutes.use("/bitacoras",bitacoraRoutes);
+    apiRoutes.use("/bitacora",bitacoraRoutes);
 
     bitacoraRoutes.get('/', getAll);
 
